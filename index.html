@@ -7,13 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style/style.css">
 
     <title>Encriptador de Texto | Alura</title>
 </head>
 <body>
     <header>
-        <img src="./img/logoAlura.png" alt="Logo da Alura">
+        <a href="index.html">
+            <img src="./img/logoAlura.png" alt="Logo da Alura">
+        </a>
     </header>
     
     <main>
@@ -32,11 +34,11 @@
         
         <section>
             <textarea class="mensagem"  cols="20" rows="10"></textarea>
-            <button class="btn-copiar">Copiar</button>
+            <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
         </section>
     </main>
 
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>

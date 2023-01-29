@@ -43,3 +43,9 @@ function desencriptar(stringDesencriptada) {
 
     return stringDesencriptada;
 }
+
+function copiarTexto() {
+    mensagem.select();
+    mensagem.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+}
